@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px) {
+    .searchBar {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .searchInput {
+        width: 25.5rem;
+        height: 2rem;
+        padding: 0.6rem;
+    }
+    .searchbtn{
+       height: 2.8rem; 
+       width: 4.2rem;
+       font-size: 18px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .searchBar {
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .searchInput {
+        width: 10rem;
+        height: 2rem;
+        padding: 0.6rem;
+    }
+    .searchbtn{
+       height: 2.8rem; 
+       width: 4.2rem;
+       font-size: 18px;
+    }
+}

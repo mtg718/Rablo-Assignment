@@ -1,0 +1,25 @@
+.employee-card {
+  transition: transform 0.3s ease;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px); /* Move card 5px up on hover */
+}
+
+@media screen and (max-width: 800px) {
+  .employee-card {
+    font-size: 22px;
+    width: 22rem;
+    height: 22rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .employee-card {
+    font-size: 18px;
+  }
+  .employee-list{
+
+    max-width: 500px;
+  }
+}
